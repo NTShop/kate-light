@@ -1,0 +1,43 @@
+
+// JS functions such as "jQuery()"
+.syntax--js {
+	color: @codeblack;
+}
+.syntax--entity.syntax--name.syntax--function.syntax--js {
+	color: @darkblue; 
+}
+// JS script tags
+.syntax--entity.syntax--name.syntax--tag.syntax--script {
+	color: @codeblack;
+	font-weight: bold;
+}
+.syntax--constant.syntax--numeric.syntax--decimal.syntax--js {
+	color: @darkblue;
+}
+.syntax--support.syntax--function.syntax--js,
+.syntax--variable.syntax--other.syntax--object.syntax--js,
+.syntax--support.syntax--variable.syntax--dom.syntax--js,
+.syntax--variable.syntax--other.syntax--property.syntax--js {
+	color: @darkblue;
+}
+.syntax--string.syntax--quoted.syntax--single.syntax--js {
+	color: @darkred;
+}
+.syntax--comment.syntax--line.syntax--double-slash.syntax--js,
+.syntax--comment.syntax--block.syntax--js {
+	color: @comments;
+}
+.syntax--comment.syntax--block.syntax--js > span:nth-child(1) {
+	font-weight: bold;
+}
+
+.syntax--variable.syntax--language.syntax--js {
+	color: @codeblack;
+	font-weight:bold;
+}
+.syntax--constant.syntax--language.syntax--boolean.syntax--false.syntax--js {
+	font-weight:bold;
+}
+.syntax--variable.syntax--parameter.syntax--function.syntax--js {
+	color: @codeblack;
+}

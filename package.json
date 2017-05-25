@@ -1,0 +1,15 @@
+{
+  "name": "kate-light",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Light UI theme with tighter sidebar and syntax highlighting similar to Kate editor",
+  "repository": "https://github.com/NTShop/kate-light.git",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0" 
+  }
+}
