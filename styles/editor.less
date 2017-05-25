@@ -1,0 +1,24 @@
+
+atom-text-editor, atom-text-editor .scroll-view .lines {
+	background-color: #fff;
+}
+
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+
+    &-track {
+      border: 0px;
+      border-radius: 0px;
+      background-color: #eee !important;
+    }
+
+    &-thumb {
+      background-color: #0099ee !important;
+      border: 0px;
+      border-radius: 0px;
+      min-height: 30px;
+    }
+  }
+}
